@@ -61,7 +61,7 @@ async function corrigeMulher(request, response) {
     
     const mulherAtualizadaNoBancoDeDados = await mulherEncontrada.save()
 
-    response.json(mulherAtualizadaNoBancoDeDados)
+      response.json(mulherAtualizadaNoBancoDeDados)
     }catch (erro) {
         console.log(erro)        
     }
